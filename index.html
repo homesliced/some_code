@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      #anna-marie{
+        width:100px;
+        height:100px;
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='anna-marie'></div>
+    <script>
+      var concatName = function(firstName, lastName){
+        return capitalize(firstName) + " " + capitalize(lastName) ;
+      };
+
+      var capitalize = function(word){
+        return word[0].toUpperCase() + word.slice(1);
+      };
+
+      var saysHi = function(){
+        return 'hi';
+      };
+      alert(concatName('tony', 'phillips'));
+
+
+    </script>
+  </body>
+
+</html>
